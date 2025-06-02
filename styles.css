@@ -1,0 +1,82 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #929291;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero p,
+.header a,
+.footer p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.services h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.services .box {
+    border: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.testimonial .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.testimonial .credit {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cta {
+    background-color: #3882F6;
+}
